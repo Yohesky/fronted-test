@@ -1,70 +1,50 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Test Frontend
 
-## Available Scripts
+Para correr la aplicación se debe hacer NPM I y luego npm start.
+Consta basicamente de 3 componentes y una ruta principal.
 
-In the project directory, you can run:
 
-### `npm start`
+## Componentes
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Login Component: 
+    Se maneja el formulario y alertas de mensajes donde si no existe el usuario o es invalido se despliega una alerta de error,
+    si el usuario es correcto se guarda en el localStorage la información y cambia el estado interno (logged) para mostrar el componente <Restaurant/>
+- Restaurant Component: 
+    Se muestra la lista de tiendas con su respectiva información y al hacer click en cada una de las tiendas se pasa por props la información al componente <Store /> para representarla visualmente
+- Store Component: 
+    Muestra la información de la tienda seleccionada
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Abordamiento de la aplicación
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+En cuanto al manejo de ramas cree una rama principal donde realice el primer commit que fue solo para construir la estructura de carpetas,
+posterior a eso cree 2 ramas (development, tests) para hacer pull request y luego hacer un merge a la rama principal.
 
-### `npm run build`
+Respecto al diseño realice animaciones sencillas no muy dinamicas.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+La aplicación fue hecha con tecnica mobile first.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Maneje una ruta porque al ser pocas vistas no fueron requeridas más.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Al ser una aplicación sencilla el manejo de la información decidí realizarla a traves de props para no agregar complejidad innecesaria.
 
-### `npm run eject`
+En cuanto a los tests realice 2 muy sencillos debido a que no tengo mucho dominio sobre el tema.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Tecnologías
 
-## Learn More
+ - React: Para SPA
+ - Styled Components: Para el manejo de logica en css aprovechando JavaScript
+ - Font Awesome: Manejo de los iconos
+ - React Router Dom: Rutas
+ - SweetAlert: Alertas de mensajes con mejor diseño
+ - testing-library/jest-dom: Para realización de tests
+## Notas
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Las tiendas no tenian información de redes sociales asi que deje por defecto las redes sociales de RobinFood.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Los productos no tenian imagenes asi que cargue imagenes random de los assets.
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
