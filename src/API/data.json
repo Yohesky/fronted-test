@@ -20,30 +20,37 @@
           "name": "Pizzeria Capitan America",
           "address": "Calle 1 #2-3",
           "description": "Esta pizzeria se especializa en ingredientes salados",
+          "logo": "https://i.imgur.com/G6ZO05Z.png",
           "products": [
             {
               "id": 1,
-              "name": "Pizza de Pollo"
+              "name": "Pizza de Pollo",
+              "img": "https://i.imgur.com/qYkqKNf.png"
             },
             {
               "id": 2,
-              "name": "Piza Pollo y Champiñones"
+              "name": "Piza Pollo y Champiñones",
+              "img": "https://i.imgur.com/G6ZO05Z.png"
             },
             {
               "id": 3,
-              "name": "Pizza Vegetales"
+              "name": "Pizza Vegetales",
+              "img": "https://i.imgur.com/vobebZK.png"
             },
             {
               "id": 4,
-              "name": "Pizza Vegetales y Atun "
+              "name": "Pizza Vegetales y Atun ",
+              "img": "https://i.imgur.com/N10ZJnI.png"
             },
             {
               "id": 5,
-              "name": "Pizza 3 Quesos con Champiñones"
+              "name": "Pizza 3 Quesos con Champiñones",
+              "img": "https://i.imgur.com/DVpPO30.png"
             },
             {
               "id": 6,
-              "name": "Pizza Jamon y Queso"
+              "name": "Pizza Jamon y Queso",
+              "img": "https://i.imgur.com/wyuo5Qb.jpg"
             }
           ]
         },
@@ -52,6 +59,7 @@
           "name": "Pizzeria Iron Man",
           "address": "Calle 2 #3-4",
           "description": "Esta pizzeria se especializa en ingredientes picantes",
+          "logo": "https://i.imgur.com/B4EKk3p.png",
           "products": [
             {
               "id": 1,
@@ -84,6 +92,7 @@
           "name": "Pizzeria Thor",
           "address": "Calle 3 #4-5",
           "description": "Esta pizzeria se especializa en ingredientes vegetales",
+          "logo": "https://i.imgur.com/DVpPO30.png",
           "products": [
             {
               "id": 1,
@@ -116,6 +125,7 @@
           "name": "Pizzeria Black Widow",
           "address": "Calle 4 #5-6",
           "description": "Esta pizzeria se especializa en ingredientes marinos",
+          "logo": "https://i.imgur.com/qYkqKNf.png",
           "products": [
             {
               "id": 1,
@@ -148,6 +158,7 @@
           "name": "Pizzeria Spider Man",
           "address": "Calle 5 #6-7",
           "description": "Esta pizzeria se especializa en ingredientes tropicales",
+          "logo": "https://i.imgur.com/1xltPWd.png",
           "products": [
             {
               "id": 1,
