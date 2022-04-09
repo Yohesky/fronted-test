@@ -67,7 +67,7 @@ const Login = () => {
     <>
       {
         !logged ? 
-        (    <MainContentLogin>
+        (    <MainContentLogin data-testid="form">
           <LogoImg src={logo}/>
           <BigMessage> Bienvenido </BigMessage>
           <SmallMessage> A las mejores pizzas del país </SmallMessage>

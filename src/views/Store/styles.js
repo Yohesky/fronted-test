@@ -251,16 +251,3 @@ export const BackIconContainer = styled.div`
   cursor: pointer;
 `;
 
-export const SocialMediaContainer = styled.div`
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  z-index: 1000;
-  margin-top: 0;
-
-  @media (min-width: 920px) {
-    margin-top: 40px;
-  }
-`;
